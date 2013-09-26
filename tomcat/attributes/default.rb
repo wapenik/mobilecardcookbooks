@@ -29,7 +29,6 @@ default['tomcat']['catalina_base_dir'] = "/etc/tomcat#{node['tomcat']['base_vers
 default['tomcat']['webapps_base_dir'] = "/var/lib/tomcat#{node['tomcat']['base_version']}/webapps"
 default['tomcat']['lib_dir'] = "/usr/share/tomcat#{node['tomcat']['base_version']}/lib"
 default['tomcat']['java_dir'] = '/usr/share/java' 
-default['tomcat']['mysql_connector_jar'] = 'mysql-connector-java.jar'
 default['tomcat']['apache_tomcat_bind_mod'] = 'proxy_http' # or: 'proxy_ajp'
 default['tomcat']['apache_tomcat_bind_config'] = 'tomcat_bind.conf'
 default['tomcat']['apache_tomcat_bind_path'] = '/tc/'
