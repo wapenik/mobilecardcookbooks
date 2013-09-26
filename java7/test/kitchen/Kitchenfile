@@ -1,0 +1,5 @@
+cookbook "java7" do
+  configuration "openjdk"
+  configuration "oracle"
+  lint(:ignore => ["FC017"])
+end
